@@ -1,0 +1,59 @@
+{
+
+    "waterway": {
+        "mesh_type": "extrusion_line",
+        "height": 0.1,
+        "color": [50, 100, 255, 255]
+    },
+    "building": {
+        "default_height": 12,
+        "height_from_tag": "height",
+        "mesh_type": "extrusion",
+        "color": [200, 100, 50, 255]
+    },
+    "crop": {
+        "mesh_type": "flat",
+        "height": 0,
+        "color": [0, 255, 255, 255]
+    },
+    "electrified": {
+        "mesh_type": "extrusion_line",
+        "width": 3,
+        "height": 0.1,
+        "color": [265, 63, 0, 255]
+    },
+    "highway": {
+        "mesh_type": "extrusion_line",
+        "width": 3,
+        "height": 0.1,
+        "color": [50, 50, 50, 255]
+    },
+    "railway": {
+        "mesh_type": "extrusion_line",
+        "width": 3,
+        "height": 0.1,
+        "color": [38, 0, 0, 255]
+    },
+    "trees": {
+        "mesh_type": "flat",
+        "height": 0,
+        "color": [0, 255, 0, 255]
+    },
+    "barrier": {
+        "default_height": 3,
+        "height_from_tag": "height",
+        "mesh_type": "extrusion_line",
+        "color": [83, 83, 83, 255]
+    },
+    "bridge": {
+        "default_height": 3,
+        "height_from_tag": "height",
+        "mesh_type": "extrusion_line",
+        "color": [0, 38, 31, 255]
+    },
+    "landuse": {
+            "mesh_type": "flat",
+            "height": 0,
+            "color": [100, 150, 80, 255]
+        }
+}
