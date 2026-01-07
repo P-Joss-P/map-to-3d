@@ -10,22 +10,16 @@ Description:
 Usage:
     - python functions.py
 
-Example:
-
 
 Dependencies:
     - Python 3.13+
-
-Notes:
-    - Add any implementation detail important for developers.
-    - Keep this section optional.
 
 """
 
 Z_LAYERS = {
     "ground": 0.0,
     "landuse": 0.0,
-    "water": 0,
+    "water": 1.5,
     "highway": 1.5,
     "railway": 2.0,
     "building": 0.0

@@ -14,16 +14,12 @@ Description:
         - used_by_buildings
 
 Usage:
-    python script_name.py [options]
+    None
 
 
 Dependencies:
     - Python 3.13+
-    - library used : osmnx, pandas, os
-
-Notes:
-    - Add any implementation detail important for developers.
-    - Keep this section optional.
+    - library used : os, osmnx, pandas
 
 """
 
@@ -78,6 +74,6 @@ df_tags = pd.DataFrame(rows)
 output_file = os.path.join(Save_osm_to_csv_path, f"osm_tag_catalog_{Name_OSM_File}.csv")
 df_tags.to_csv(output_file, index=False)
 
-print("Fichier 'osm_tag_catalog.csv' généré avec succès")
+print("File 'osm_tag_catalog.csv'succesfully generated")
 
 
