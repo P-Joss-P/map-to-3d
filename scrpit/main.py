@@ -32,7 +32,7 @@ os.makedirs(FILTERED_DIR, exist_ok=True) # creation of filter_directory
 gdf = ox.features_from_xml(full_path)
 
 # Plot interest_types
-#osm2plot(gdf, interest_types, True, save_folder_path, show_setting=False)
+#osm2plot(gdf, interest_types, True, save_folder_path, show_setting=True)
 
 # Scene creation and operation
 gdf = load_and_filter_osm(full_path, save_filtered=True)

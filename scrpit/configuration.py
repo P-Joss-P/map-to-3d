@@ -46,6 +46,10 @@ BASE_DIR = r"C:\data\Ecole\ENSE3\Cours\2A\Semestre1\Parcours_numerique\Projet_Ma
 DEFAULT_CONFIG = os.path.join(BASE_DIR, "mapping_entities.json")
 
 
+# Blender auto import
+GLB_path = r"C:\data\Ecole\ENSE3\Cours\2A\Semestre1\Parcours_numerique\Projet_MapTo3D\map-to-3d"
+
+
 
 interest_types = [  "landuse",
                     "waterway",
