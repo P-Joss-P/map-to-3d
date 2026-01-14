@@ -67,6 +67,7 @@ instance/
 
 # Folders
 textures
+Exports_test
 
 # Scrapy stuff:
 .scrapy

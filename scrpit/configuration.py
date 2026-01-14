@@ -15,8 +15,6 @@ Usage:
 Dependencies:
     - Python 3.13+
     - library used : os
-
-
 """
 
 
@@ -54,11 +52,11 @@ GLB_path = r"C:\data\Ecole\ENSE3\Cours\2A\Semestre1\Parcours_numerique\Projet_Ma
 interest_types = [  "landuse",
                     "waterway",
                     "building",
-                    "crop",
-                    "electrified",
+                    #"crop",
+                    #"electrified",
                     "highway",
-                    "railway",
-                    "trees",
-                    "barrier",
-                    "bridge",
+                    #"railway",
+                    #"trees",
+                    #"barrier",
+                    #"bridge",
                 ]
